@@ -1,0 +1,9 @@
+test:
+  override:
+    - echo "Tests? What tests!"
+
+deployment:
+  deploy:
+    branch: master
+    commands:
+      - ./publish.sh
